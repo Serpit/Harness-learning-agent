@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__web-reader__webReader",
+      "Bash(git clone:*)",
+      "Bash(find /Users/guansiping/Desktop/space/learning-agent/AgenticMetaEngineering -not -path */.git/* -type f -o -type d)",
+      "Skill(codex:rescue)",
+      "Bash(ls -la /Users/guansiping/workspace/cookpal/.claude* /Users/guansiping/workspace/cookpal/CLAUDE.md)",
+      "Read(//Users/guansiping/workspace/cookpal-android/.claude/**)",
+      "Read(//Users/guansiping/workspace/cookpal-android/**)",
+      "Bash(ls /Users/serpit/.claude/.mcp*)",
+      "Bash(cat /Users/serpit/.claude/mcp*.json)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(echo $PATH)",
+      "Bash(npm list:*)",
+      "Read(//Users/serpit/.npm/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/homebrew/Caskroom/codex/0.114.0/**)",
+      "Read(//opt/homebrew/Caskroom/codex/**)"
+    ]
+  }
+}
